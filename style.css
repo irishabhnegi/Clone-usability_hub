@@ -132,6 +132,7 @@ ul {
 
 header {
   padding: 50px var(--padding-inline-section);
+  margin-block: 90px;
 }
 
 .header-section {
@@ -154,6 +155,9 @@ header {
 
 /* Companies section */
 
+.companies-section{
+    margin-block: 100px;
+}
 .companies-header {
   text-align: center;
   margin-block: 30px;
@@ -294,4 +298,16 @@ footer{
 .footer-container{
     align-items: flex-start;
     justify-content: space-between;
+}
+
+/* Sub-footer */
+
+.subfooter{
+  background-color: #b9cde4;  
+  padding: var(--padding-inline-section);
+}
+
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
 }
